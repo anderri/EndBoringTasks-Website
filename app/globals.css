@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typography: ITC Avant Garde Gothic Std (placeholder).
+   Replace with licensed webfonts via @font-face or a font host. */
+:root {
+  --brand-blue: #4A67F8;
+  --brand-magenta: #DB37B8;
+  --brand-navy: #090816;
+}
+
+html, body {
+  font-family: "ITC Avant Garde Gothic Std", Avant Garde, "URW Gothic L", Poppins, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
